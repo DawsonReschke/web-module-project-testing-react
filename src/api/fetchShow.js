@@ -16,7 +16,6 @@ const formatSeasons = (allEpisodes) => {
       image: episode.image ? episode.image.medium : null
     });
   });
-
   return seasons;
 };
 
